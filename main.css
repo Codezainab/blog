@@ -1,14 +1,40 @@
 * {
-    background-color: #fdf6f2;
+
+
+ }
+
+.headerimage{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
-h2 {
-    font-family: 'Open Sans', sans-serif;
+ .container {
+    background-color: rgb(187, 173, 179);
+    margin: 210px;
+    padding: 2px;
+ }
+ .wrapper {
+    background-color: #f0f8ff;
+    box-sizing: border-box;
+    padding: 35px;
+    margin: 25px;
+ }
+body{
+    margin: 30px;
+    background-color: #506a74;
 }
+#navbar{
+    background-color: rgba(202, 116, 66, 0.3)
+}
+{
 h2 {
+    font-family: 'Abril Fatface', cursive;
     color: #a78d8a;
 }
+{
 p {
-    color: #4e7988;
+    color: #cf6a99;
 }
 
 p {
@@ -16,6 +42,13 @@ p {
 }
 
 h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Sacramento', cursive;;
     color: #7f5579;
+}
+.container {
+    color:whitesmoke;
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 1000px;
+    flex-wrap: wrap;
 }
