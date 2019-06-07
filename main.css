@@ -1,8 +1,9 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
-
- }
-
+ body{
+    margin: 30px;
+    background-color: #506a74;
+}
 .headerimage{
     display: flex;
     justify-content: center;
@@ -11,44 +12,28 @@
 }
  .container {
     background-color: rgb(187, 173, 179);
-    margin: 210px;
-    padding: 2px;
- }
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 90%;
+    flex-wrap: wrap;
+}
  .wrapper {
     background-color: #f0f8ff;
     box-sizing: border-box;
-    padding: 35px;
-    margin: 25px;
+    font-family: 'Roboto Slab', serif;
+    padding: 80px;
+    margin: 10px;
  }
-body{
-    margin: 30px;
-    background-color: #506a74;
-}
-#navbar{
+.navbar{
     background-color: rgba(202, 116, 66, 0.3)
 }
-{
-h2 {
-    font-family: 'Abril Fatface', cursive;
-    color: #a78d8a;
-}
-{
-p {
-    color: #cf6a99;
-}
 
-p {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-h3 {
-    font-family: 'Sacramento', cursive;;
-    color: #7f5579;
-}
-.container {
-    color:whitesmoke;
-    font-size: 50px;
-    font-family: 'Source Sans Pro', sans-serif;
-    width: 1000px;
-    flex-wrap: wrap;
+.outcomeonegif{
+    display: flex;
+    justify-content: center;
+    align-content: center;   
 }
